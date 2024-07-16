@@ -24,7 +24,7 @@ Napewno udało się wykonać założony cel aplikacji.
 + Button w footerze ("pokaż") wysuwający ramkę bez użycia JSa. -Próbowałam zrobić to za pomocą niewidocznego checkboxa-w formie przycisku, jednak nie udao mi się, nie umiałam znaleść powodu, dla którego to nie działało, ostatecznie użyłam state hooka z reacta i funkcji do aktualizacji stanu.
 + Rezultat prac wrzucić do podglądu na jakąś darmową platformę (np. netlify/heroku).
 
-  link:
+  link:https://incandescent-twilight-48dfd7.netlify.app
 
 # Czego nie udało się zrobić i dlaczego
 - Zastosowanie BEM.
