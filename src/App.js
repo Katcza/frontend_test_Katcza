@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState,  } from 'react';
 import './App.css';
 import { Header, Footer } from './Layout';
 import data from './data.json';
@@ -12,7 +12,7 @@ const App = () => {
 
 
 
-    {/* PICKING OPTIONS FROM JSON FILE*/ }
+    /* PICKING OPTIONS FROM JSON FILE*/ 
     const handleRadioChange = (event) => {
         const value = event.target.value;
         let selectedContent;
@@ -41,12 +41,12 @@ const App = () => {
         setSelectedOption(selectedContent);
     };
 
-    {/* REPLACE DATA BUTTON*/ }
+    /* REPLACE DATA BUTTON*/ 
     const handleReplace = () => {
         setContent([selectedOption]);
     };
 
-    {/* ADDON DATA BUTTON*/ }
+    /* ADDON DATA BUTTON*/ 
     const handleAppend = () => {
         setContent(prevContent => {
             const newContent = [...prevContent, selectedOption].sort();
